@@ -1,8 +1,8 @@
 // const express = require("express");
-import express from 'express';
-import bodyParser from "body-parser";
-import logger from 'morgan';
-import expressLayouts from "express-ejs-layouts";
+const express = require("express");
+const bodyParser = require("body-parser");
+const logger = require("morgan");
+const expressLayouts = require("express-ejs-layouts");
 const port = process.env.PORT || 4000;
 
 const app = express();
