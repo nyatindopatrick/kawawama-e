@@ -22,7 +22,7 @@
     "nodemon": "^1.19.4"
   },
   "scripts": {
-    "start": "node bin/dev",
+    "start": "node app.js",
     "dev": "nodemon  ./app.js --exec babel-node -e js"
   },
   "keywords": [],
